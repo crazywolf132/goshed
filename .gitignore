@@ -1,0 +1,35 @@
+# Binary files
+bin/
+/goshed
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, built with go test -c
+*.test
+
+# Output of the go coverage tool
+*.out
+coverage.html
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS specific files
+.DS_Store
+Thumbs.db
+
+# GoShed specific
+.goshed/
+.goshed.json
+
+# Dependencies
+vendor/
+
+# Environment variables
+.env 
